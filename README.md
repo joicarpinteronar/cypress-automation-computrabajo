@@ -59,7 +59,7 @@ Reporte de Allure
 
 Video
 
-<video controls src="cypress/videos/computrabajo.feature.mp4" title="Title"></video>
+<video controls src="computrabajo.feature.mp4" title="Title"></video>
 
 
 
