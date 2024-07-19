@@ -6,9 +6,11 @@
 Este repositorio contiene un flujo de pruebas automatizadas desarrolladas en Cypress para el portal de Computrabajo. El objetivo principal del proyecto es validar el flujo de solicitud para aplicar a una oferta de trabajo específica en dicho portal.
 
 Escenario Validado
+
 El escenario principal validado consiste en realizar una solicitud para aplicar a una oferta de trabajo en Computrabajo. Se verifica el flujo completo de la solicitud, desde la seleccion del pais hasta la confirmación del registro del usuario.
 
 Implementación del Modelo POM
+
 Para asegurar un código mantenible y escalable, se ha implementado el Patrón de Objetos de Página (Page Object Model, POM). Esto permite encapsular los elementos de la interfaz de usuario y las acciones en métodos reutilizables, facilitando la modificación y expansión de las pruebas.
 
 ## 🚀 Instalación y configuración
@@ -47,16 +49,18 @@ cypress/e2e/features: Contiene los archivos donde se definen las caracteristicas
 
 cypress/e2e/fixture: Contiene los datos de prueba en formato JSON se almacenan aquí.
 
+## Resultados:
+
+Reporte de Allure
+
+![alt text](image-1.png)
+
+![alt text](image.png)
+
+Video
+
+<video controls src="cypress/videos/computrabajo.feature.mp4" title="Title"></video>
 
 
-Contribuciones y comentarios
-¡Las contribuciones y sugerencias son bienvenidas! Si encuentra un error o desea mejorar el proyecto, no dude en crear una solicitud de extracción. Asegúrese de que su código siga las mejores prácticas e incluya las pruebas adecuadas.
 
-Bifurque el repositorio.
 
-Cree una nueva rama: git checkout -b feature/your-feature-name.
-Realice cambios y confírmelos: git commit -am 'Add new feature'.
-Envíelos a la rama: git push origin feature/your-feature-name.
-Cree una solicitud de extracción.
-Nota:
-Parece que hay algún problema con la API alojada en Render. A veces funciona y a veces no, por lo que los casos de prueba de la API fallan. Puedes usar tus puntos de API o puedes cambiar la URL en APIConfig a https://mobilestore-c8yg.onrender.com
